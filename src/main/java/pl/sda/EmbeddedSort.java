@@ -8,8 +8,7 @@ import java.util.stream.Collectors;
 public class EmbeddedSort {
     public static void main(String[] args) {
 
-        List<Integer> numbers = new ArrayList<>();
-        generateNumbers();
+        List<Integer> numbers = generateNumbers();
         sort(numbers);
         System.out.println(numbers);
     }
@@ -18,6 +17,9 @@ public class EmbeddedSort {
         Collections.sort(numbers);
     }
 
-    private static void generateNumbers() {
+    private static List<Integer> generateNumbers() {
+        List<Integer> numbers = new ArrayList<>();
+
+        return numbers;
     }
 }
