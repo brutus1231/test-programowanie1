@@ -19,6 +19,7 @@ public class Pesel {
             pesels[i] = scanner.next();
             System.out.println(checkPesel(pesels[i]));
         }
+        scanner.close();
     }
 
     private static String checkPesel(String pesel) {

@@ -4,7 +4,7 @@ import java.util.Arrays;
 import java.util.List;
 
 public class ListReverse {
-    
+
     public static void main(String[] args) {
         List<Integer> numbers = Arrays.asList(1, 2, 3, 8, 5, 3, 8);
         reverse(numbers, numbers.size() - 1);
