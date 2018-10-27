@@ -3,7 +3,6 @@ package pl.sda;
 import java.util.ArrayList;
 import java.util.Collections;
 import java.util.List;
-import java.util.stream.Collectors;
 
 public class EmbeddedSort {
     public static void main(String[] args) {
