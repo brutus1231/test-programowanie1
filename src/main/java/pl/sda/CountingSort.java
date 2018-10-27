@@ -23,8 +23,17 @@ public class CountingSort {
             if(element > max)max = element;
         }
 
-        int[] cardinalities = new int[max+1];
+        int[] cardinalities = new int[max + 1];
+        for (int i = 0; i < numbers.length; i++) {
+            cardinalities[numbers[i]]++;
+        }
 
+        int counter = 0;
+        for (int i = 0; i < cardinalities.length; i++) {
+            for (int j = 0; j < cardinalities[i]; j++) {
+                numbers[counter++] = i;
+            }
+        }
     }
 
 
